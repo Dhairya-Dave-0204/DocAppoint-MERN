@@ -8,18 +8,23 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        expletus: ["Expletus Sans", "sans-serif"],
+        montserrat: ["Montserrat", sans-serif],
       },
 
       colors: {
-        primary: "#FF885B",
-        secondary: "#FFE5CF",
-        tertiary: "#557C56",
+        primary: "#00b4d8",
+        secondary: "#0077b6",
+        tertiary: "#90e0ef",
+        ternary: "#caf0f8",
+        ternaryDark: "#03045e",
       },
 
       textColor: {
-        "hover-primary": "#FF885B",
-        "hover-secondary": "#557C56",
+        "hover-primary": "#00b4d8",
+        "hover-secondary": "#0077b6",
+        "hover-tertiary": "#90e0ef",
+        "hover-ternary": "#caf0f8",
+        "hover-ternaryDark": "#03045e",
       },
     },
   },
