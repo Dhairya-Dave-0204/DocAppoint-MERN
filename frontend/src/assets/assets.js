@@ -22,7 +22,7 @@ import people from "./people2.jpg"
 import practice from "./Practice.jpg"
 import survey from "./survey.jpg"
 
-export const assets = {
+const assets = {
     about_banner,
     about_photo,
     appointment_form,
@@ -47,3 +47,5 @@ export const assets = {
     practice,
     survey,
 }
+
+export default assets

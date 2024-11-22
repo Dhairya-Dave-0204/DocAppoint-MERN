@@ -12,16 +12,16 @@ export default {
       },
 
       colors: {
-        primary: "#00b4d8",
-        secondary: "#0077b6",
+        primary: "#00abc1",
+        secondary: "#00777c",
         tertiary: "#90e0ef",
         ternary: "#caf0f8",
         ternaryDark: "#03045e",
       },
 
       textColor: {
-        "hover-primary": "#00b4d8",
-        "hover-secondary": "#0077b6",
+        "hover-primary": "#00abc1",
+        "hover-secondary": "#00777c ",
         "hover-tertiary": "#90e0ef",
         "hover-ternary": "#caf0f8",
         "hover-ternaryDark": "#03045e",

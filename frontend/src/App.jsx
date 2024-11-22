@@ -12,14 +12,14 @@ function App() {
       <div className='min-h-screen font-Parkinsans'>
         <ToastContainer position='bottom-right'/>
         <Navbar />
-        {/* <Routes>
+        <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/doctor' element={<Doctor />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/faq' element={<FAQ />} />
           <Route path='/survey' element={<Survey />} />
-        </Routes> */ }
+        </Routes>
         <Footer /> 
       </div>
     </>
