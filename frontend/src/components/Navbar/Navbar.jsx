@@ -69,7 +69,7 @@ function Navbar() {
 
       {menuOpened ? (
         <menu
-          className={`xl:hidden absolute flex flex-col items-center justify-center gap-10 top-20 bg-[#fefffe] left-0 w-full transform transition-transform ${
+          className={`xl:hidden pb-8 absolute flex flex-col items-center justify-center gap-10 top-20 bg-[#fefffe] left-0 w-full transform transition-transform ${
             menuOpened ? "opacity-100" : "opacity-0"
           }`}
           style={{ transition: "transfrom 0.3s ease, opacity 0.3s ease" }}
