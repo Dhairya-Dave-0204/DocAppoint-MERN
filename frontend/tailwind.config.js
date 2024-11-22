@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
+        Parkinsans: ["Parkinsans", "sans-serif"],
       },
 
       colors: {
