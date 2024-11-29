@@ -2,7 +2,7 @@ import React from "react";
 
 function FeatureCard() {
   return (
-    <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-12 mt-10 mb-20 px-12 xl:px-60 py-6">
+    <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-12 mt-20 xl:mt-44 mb-20 xl:mb-36 px-12 xl:px-60 py-6">
       <div className="flex flex-col items-center justify-center gap-4 rounded-2xl bg-white shadow-xl px-6 py-8 hover:scale-105 duration-500 transition-all hover:shadow-2xl">
         <i className="ri-stethoscope-line text-6xl text-primary"></i>
 

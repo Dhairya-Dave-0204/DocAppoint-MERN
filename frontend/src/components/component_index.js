@@ -5,6 +5,7 @@ import FeatureCard from "./FeatureCard/FeatureCard";
 import SurveyBanner from "./SurveyBanner/SurveyBanner";
 import ListPracticeBanner from "./ListPracticeBanner/ListPracticeBanner";
 import Testimonial from "./Testimonials/Testimonial";
+import DocCourousal from "./DocCorousal/DocCourousal";
 
 export {
     Navbar,
@@ -14,4 +15,5 @@ export {
     SurveyBanner,
     ListPracticeBanner,
     Testimonial,
+    DocCourousal,
 }

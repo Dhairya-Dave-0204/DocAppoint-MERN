@@ -6,7 +6,7 @@ function Header() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex items-center justify-between gap-8 xl:mt-20 flex-col-reverse xl:flex-row px-12 xl:px-60 py-6 mb-20">
+    <div className="flex items-center justify-between gap-8 mt-10 xl:mt-32 flex-col-reverse xl:flex-row px-12 xl:px-60 py-6 mb-20">
       <div className="basis-1/2">
         <h2 className="text-3xl md:text-5xl font-semibold text-primary mb-5">
           <span className="text-secondary">Doc</span>Appoint
