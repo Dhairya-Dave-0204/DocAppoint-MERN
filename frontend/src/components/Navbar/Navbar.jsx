@@ -64,7 +64,7 @@ function Navbar() {
 
       <i
         onClick={() => setMenuOpened(!menuOpened)}
-        class="ri-menu-4-fill text-3xl xl:hidden"
+        className="ri-menu-4-fill text-3xl xl:hidden"
       ></i>
 
       {menuOpened ? (

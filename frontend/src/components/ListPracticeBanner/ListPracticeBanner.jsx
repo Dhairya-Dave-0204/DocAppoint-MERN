@@ -3,7 +3,7 @@ import assets from '../../assets/assets'
 
 function ListPracticeBanner() {
   return (
-    <div className='flex flex-col xl:flex-row px-12 xl:px-60 py-6 gap-12 items-center'>
+    <div className='flex flex-col mb-24 xl:flex-row px-12 xl:px-60 py-6 gap-12 items-center'>
         <div className='basis-1/2'>
             <img src={assets.practice} alt="Practice" />
         </div>

@@ -1,11 +1,12 @@
 import React from 'react'
-import { FeatureCard, Header, ListPracticeBanner, SurveyBanner } from '../../components/component_index'
+import { FeatureCard, Header, ListPracticeBanner, SurveyBanner, Testimonial } from '../../components/component_index'
 
 function Home() {
   return (
     <>
       <Header />
       <FeatureCard />
+      <Testimonial />
       <ListPracticeBanner />
       <SurveyBanner />
     </>

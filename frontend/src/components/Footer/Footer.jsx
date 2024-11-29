@@ -17,16 +17,16 @@ function Footer() {
             
             <div className="text-2xl mb-6">
               <Link to="https://www.wikipedia.org/" className="mr-4">
-                <i class="ri-global-line bg-white text-primary p-2 rounded-[50%]"></i>
+                <i className="ri-global-line bg-white text-primary p-2 rounded-[50%]"></i>
               </Link>
               <Link to="https://www.facebook.com/" className="mr-4">
-                <i class="ri-facebook-circle-line bg-white text-primary p-2 rounded-[50%]"></i>
+                <i className="ri-facebook-circle-line bg-white text-primary p-2 rounded-[50%]"></i>
               </Link>
               <Link to="https://www.instagram.com/" className="mr-4">
-                <i class="ri-instagram-line bg-white text-primary p-2 rounded-[50%]"></i>
+                <i className="ri-instagram-line bg-white text-primary p-2 rounded-[50%]"></i>
               </Link>
               <Link to="https://www.whatsapp.com/" className="mr-4">
-                <i class="ri-whatsapp-line bg-white text-primary p-2 rounded-[50%]"></i>
+                <i className="ri-whatsapp-line bg-white text-primary p-2 rounded-[50%]"></i>
               </Link>
             </div>
           </div>

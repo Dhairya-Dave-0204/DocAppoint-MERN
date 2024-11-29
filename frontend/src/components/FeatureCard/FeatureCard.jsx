@@ -4,7 +4,7 @@ function FeatureCard() {
   return (
     <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-12 mt-10 mb-20 px-12 xl:px-60 py-6">
       <div className="flex flex-col items-center justify-center gap-4 rounded-2xl bg-white shadow-xl px-6 py-8 hover:scale-105 duration-500 transition-all hover:shadow-2xl">
-        <i class="ri-stethoscope-line text-6xl text-primary"></i>
+        <i className="ri-stethoscope-line text-6xl text-primary"></i>
 
         <h3 className="text-xl md:text-2xl font-medium text-center">Find the best medical <br /> professionals online</h3>
 
@@ -12,7 +12,7 @@ function FeatureCard() {
       </div>
       
       <div className="flex flex-col items-center justify-center gap-4 rounded-2xl bg-white shadow-xl px-6 py-8 hover:scale-105 duration-500 transition-all hover:shadow-2xl">
-      <i class="ri-nurse-line text-6xl text-primary"></i>
+      <i className="ri-nurse-line text-6xl text-primary"></i>
 
         <h3 className="text-xl md:text-2xl font-medium text-center">View a <br /> doctor's profile</h3>
 
@@ -20,7 +20,7 @@ function FeatureCard() {
       </div>
       
       <div className="flex flex-col items-center justify-center gap-4 rounded-2xl bg-white shadow-xl px-6 py-8 hover:scale-105 duration-500 transition-all hover:shadow-2xl">
-      <i class="ri-calendar-2-line text-6xl text-primary"></i>
+      <i className="ri-calendar-2-line text-6xl text-primary"></i>
 
         <h3 className="text-xl md:text-2xl font-medium text-center">Get instant <br /> doctor appoinment</h3>
 

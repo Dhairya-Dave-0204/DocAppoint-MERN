@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import FeatureCard from "./FeatureCard/FeatureCard";
 import SurveyBanner from "./SurveyBanner/SurveyBanner";
 import ListPracticeBanner from "./ListPracticeBanner/ListPracticeBanner";
+import Testimonial from "./Testimonials/Testimonial";
 
 export {
     Navbar,
@@ -12,4 +13,5 @@ export {
     FeatureCard,
     SurveyBanner,
     ListPracticeBanner,
+    Testimonial,
 }

@@ -11,7 +11,7 @@ function App() {
     <>
       <div className='min-h-screen font-Parkinsans'>
         <ToastContainer position='bottom-right'/>
-        <Navbar />
+        <Navbar /> 
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/doctor' element={<Doctor />} />
