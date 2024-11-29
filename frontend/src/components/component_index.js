@@ -6,6 +6,7 @@ import SurveyBanner from "./SurveyBanner/SurveyBanner";
 import ListPracticeBanner from "./ListPracticeBanner/ListPracticeBanner";
 import Testimonial from "./Testimonials/Testimonial";
 import DocCourousal from "./DocCorousal/DocCourousal";
+import About from "./About/About";
 
 export {
     Navbar,
@@ -16,4 +17,5 @@ export {
     ListPracticeBanner,
     Testimonial,
     DocCourousal,
+    About,
 }

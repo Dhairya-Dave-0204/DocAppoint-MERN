@@ -1,5 +1,5 @@
 import React from 'react'
-import { DocCourousal, FeatureCard, Header, ListPracticeBanner, SurveyBanner, Testimonial } from '../../components/component_index'
+import { About, DocCourousal, FeatureCard, Header, ListPracticeBanner, SurveyBanner, Testimonial } from '../../components/component_index'
 
 function Home() {
   return (
@@ -8,6 +8,7 @@ function Home() {
       <FeatureCard />
       <DocCourousal />
       <Testimonial />
+      <About />
       <ListPracticeBanner />
       <SurveyBanner />
     </>
