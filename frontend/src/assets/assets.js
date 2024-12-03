@@ -22,6 +22,15 @@ import people from "./people2.jpg"
 import practice from "./Practice.jpg"
 import survey from "./survey.jpg"
 
+import check from "./check.png"
+import draw from "./draw.png"
+import leaf from "./leaf.png"
+import record from "./medical-record.png"
+import eye from "./open-eye.png"
+import passionate from "./passionate.png"
+import shield from "./shield.png"
+import star from "./star.png"
+
 const assets = {
     about_banner,
     about_photo,
@@ -46,6 +55,15 @@ const assets = {
     people,
     practice,
     survey,
+
+    check,
+    draw,
+    leaf,
+    record,
+    eye,
+    passionate,
+    shield,
+    star,
 }
 
 export default assets
