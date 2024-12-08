@@ -40,7 +40,7 @@ function AccordianItem({ question, ans, isExpanded, onToggle }) {
         isExpanded ? "max-h-96" : "max-h-20"
       }`}
     >
-      <div onClick={onToggle} className="flex justify-between items-start p-4 gap-4 cursor-pointer">
+      <div onClick={onToggle} className="flex items-start justify-between gap-4 p-4 cursor-pointer">
         <h2 className="text-2xl font-medium">{question}</h2>
         <i
           className={`ri-arrow-down-s-line text-3xl transition-all duration-500 ${
@@ -69,7 +69,7 @@ function FaqAccordian() {
 
   return (
     <>
-      <div className="flex flex-col gap-3 max-w-md mx-auto">
+      <div className="flex flex-col max-w-md gap-3 mx-auto">
         {accordianData.map((item) => (
           <AccordianItem
             key={item.id}

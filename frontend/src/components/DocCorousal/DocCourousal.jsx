@@ -8,8 +8,8 @@ import data from "./data";
 
 function DocCourousal() {
   return (
-    <div className="px-12 xl:px-60 py-6 mb-20">
-      <h2 className="mb-12 text-center text-3xl md:text-6xl font-semibold text-primary">
+    <div className="px-12 py-6 mb-20 xl:px-60">
+      <h2 className="mb-12 text-3xl font-semibold text-center md:text-6xl text-primary">
         Discover the best doctors
       </h2>
 
@@ -38,7 +38,7 @@ function DocCourousal() {
       >
         {data.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="relative items-center text-center flex flex-col gap-6 mb-12 transition-all duration-500 hover:shadow-lg rounded-3xl px-6 py-8 border-2 border-slate-100 hover:border-slate-200">
+            <div className="relative flex flex-col items-center gap-6 px-6 py-8 mb-12 text-center transition-all duration-500 border-2 hover:shadow-lg rounded-3xl border-slate-100 hover:border-slate-200">
               <div className="h-[150px] w-[150px] border-[3px] border-primary rounded-[50%]">
                 <img
                   src={item.image}
@@ -47,11 +47,11 @@ function DocCourousal() {
                 />
               </div>
 
-              <h3 className="text-2xl text-primary font-medium">{item.name}</h3>
+              <h3 className="text-2xl font-medium text-primary">{item.name}</h3>
 
               <p className="font-light">{item.description}</p>
 
-              <button className="px-4 py-2 bg-primary text-white font-medium rounded-xl transition-all duration-500 hover:scale-105">
+              <button className="px-4 py-2 font-medium text-white transition-all duration-500 bg-primary rounded-xl hover:scale-105">
                 View More
               </button>
             </div>

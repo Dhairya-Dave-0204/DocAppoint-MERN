@@ -3,28 +3,28 @@ import assets from "../../assets/assets";
 
 function Testimonial() {
   return (
-    <div className="mt-10 mb-24 px-12 xl:px-60 py-6">
-      <h2 className="mb-2 text-center text-4xl md:text-6xl font-semibold text-primary">
+    <div className="px-12 py-6 mt-10 mb-24 xl:px-60">
+      <h2 className="mb-2 text-4xl font-semibold text-center md:text-6xl text-primary">
         Testimonials
       </h2>
 
-      <p className="text-center text-base md:text-2xl mb-12 font-light">
+      <p className="mb-12 text-base font-light text-center md:text-2xl">
         See what our users say about us
       </p>
 
       <div className="flex flex-col gap-8 xl:grid xl:grid-cols-10 xl:grid-rows-3">
         <div className="xl:col-span-4 xl:row-span-2 rounded-2xl p-[1.3px] bg-slate-200 hover:scale-105 transition-all duration-500 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300">
-          <div className="bg-white rounded-2xl w-full h-full">
-            <div className="flex items-center md:justify-around p-3 sm:p-6 gap-3 xl:gap-10">
+          <div className="w-full h-full bg-white rounded-2xl">
+            <div className="flex items-center gap-3 p-3 md:justify-around sm:p-6 xl:gap-10">
               <img
                 src={assets.img_1}
                 alt=""
                 className="sm:w-20 sm:h-20 w-16 h-16 rounded-[50%] border-primary border-[3px]"
               />
               
-              <h3 className="sm:text-2xl md:text-3xl xl:font-normal font-medium">Abby Campbell</h3>
+              <h3 className="font-medium sm:text-2xl md:text-3xl xl:font-normal">Abby Campbell</h3>
 
-              <div className="hidden md:flex items-center gap-1 text-primary">
+              <div className="items-center hidden gap-1 md:flex text-primary">
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
@@ -42,16 +42,16 @@ function Testimonial() {
         </div>  
         
         <div className="xl:col-span-4 xl:row-span-1 rounded-2xl p-[1.3px] bg-slate-200 hover:scale-105 transition-all duration-500 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300">
-          <div className="bg-white rounded-2xl w-full h-full">
-            <div className="flex items-center p-3 md:justify-around sm:p-6 gap-3 xl:gap-14">
+          <div className="w-full h-full bg-white rounded-2xl">
+            <div className="flex items-center gap-3 p-3 md:justify-around sm:p-6 xl:gap-14">
               <img
                 src={assets.img_2}
                 alt=""
                 className="sm:w-20 sm:h-20 w-16 h-16 rounded-[50%] border-primary border-[3px]"
               />
-              <h3 className="sm:text-2xl xl:text-3xl xl:font-normal font-medium">Les Mckay</h3>
+              <h3 className="font-medium sm:text-2xl xl:text-3xl xl:font-normal">Les Mckay</h3>
 
-              <div className="hidden md:flex items-center gap-1 text-primary">
+              <div className="items-center hidden gap-1 md:flex text-primary">
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
@@ -69,16 +69,16 @@ function Testimonial() {
         </div>
         
         <div className="xl:col-span-2 xl:row-span-1 rounded-2xl p-[1.3px] bg-slate-200 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300 hover:scale-105 transition-all duration-500">
-          <div className="bg-white rounded-2xl w-full h-full">
-            <div className="flex items-center md:justify-around p-3 sm:p-6 gap-3">
+          <div className="w-full h-full bg-white rounded-2xl">
+            <div className="flex items-center gap-3 p-3 md:justify-around sm:p-6">
               <img
                 src={assets.img_3}
                 alt=""
                 className="sm:w-20 sm:h-20 w-16 h-16 rounded-[50%] border-primary border-[3px]"
               />
-              <h3 className="sm:text-2xl font-medium">Emily Weeks</h3>
+              <h3 className="font-medium sm:text-2xl">Emily Weeks</h3>
 
-              <div className="hidden md:flex xl:hidden items-center gap-1 text-primary">
+              <div className="items-center hidden gap-1 md:flex xl:hidden text-primary">
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
@@ -96,16 +96,16 @@ function Testimonial() {
         </div>
         
         <div className="xl:col-span-3 xl:row-span-2 rounded-2xl p-[1.3px] bg-slate-200 hover:scale-105 transition-all duration-500 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300">
-          <div className="bg-white rounded-2xl w-full h-full">
-            <div className="flex items-center p-3 md:justify-around sm:p-6 gap-3 xl:gap-8">
+          <div className="w-full h-full bg-white rounded-2xl">
+            <div className="flex items-center gap-3 p-3 md:justify-around sm:p-6 xl:gap-8">
               <img
                 src={assets.img_4}
                 alt=""
                 className="sm:w-20 sm:h-20 w-16 h-16 rounded-[50%] border-primary border-[3px]"
               />
-              <h3 className="sm:text-2xl xl:text-3xl xl:font-normal font-medium">Johnny Horn</h3>
+              <h3 className="font-medium sm:text-2xl xl:text-3xl xl:font-normal">Johnny Horn</h3>
 
-              <div className="hidden md:flex xl:hidden items-center gap-1 text-primary">
+              <div className="items-center hidden gap-1 md:flex xl:hidden text-primary">
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
@@ -123,16 +123,16 @@ function Testimonial() {
         </div>
         
         <div className="xl:col-span-3 xl:row-span-2 rounded-2xl p-[1.3px] bg-slate-200 hover:scale-105 transition-all duration-500 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300">
-          <div className="bg-white rounded-2xl w-full h-full">
-            <div className="flex items-center p-3 md:justify-around sm:p-6 gap-3 xl:gap-8">
+          <div className="w-full h-full bg-white rounded-2xl">
+            <div className="flex items-center gap-3 p-3 md:justify-around sm:p-6 xl:gap-8">
               <img
                 src={assets.img_5}
                 alt=""
                 className="sm:w-20 sm:h-20 w-16 h-16 rounded-[50%] border-primary border-[3px]"
               />
-              <h3 className="sm:text-2xl xl:text-3xl xl:font-normal font-medium">Carly Frederick</h3>
+              <h3 className="font-medium sm:text-2xl xl:text-3xl xl:font-normal">Carly Frederick</h3>
 
-              <div className="hidden md:flex xl:hidden items-center gap-1 text-primary">
+              <div className="items-center hidden gap-1 md:flex xl:hidden text-primary">
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
@@ -150,16 +150,16 @@ function Testimonial() {
         </div>
 
         <div className="xl:col-span-4 xl:row-span-1 rounded-2xl p-[1.3px] bg-slate-200 hover:scale-105 transition-all duration-500 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300">
-          <div className="bg-white rounded-2xl w-full h-full">
-            <div className="flex items-center p-3 md:justify-around sm:p-6 gap-3 xl:gap-8">
+          <div className="w-full h-full bg-white rounded-2xl">
+            <div className="flex items-center gap-3 p-3 md:justify-around sm:p-6 xl:gap-8">
               <img
                 src={assets.img_6}
                 alt=""
                 className="sm:w-20 sm:h-20 w-16 h-16 rounded-[50%] border-primary border-[3px]"
               />
-              <h3 className="sm:text-2xl font-medium">Cameron Mccann</h3>
+              <h3 className="font-medium sm:text-2xl">Cameron Mccann</h3>
 
-              <div className="hidden md:flex items-center gap-1 text-primary">
+              <div className="items-center hidden gap-1 md:flex text-primary">
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>

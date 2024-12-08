@@ -5,17 +5,17 @@ function Footer() {
   return (
     <>
       <footer className="md:px-32 py-20 px-10 bg-gradient-to-r from-primary to-secondary text-white w-full rounded-tl-[125px]">
-        <div className="flex md:flex-row flex-col gap-12 md:mb-6 mb-10">
-          <div className="basis-3/6 mr-10 pr-10">
-            <h2 className="md:text-3xl text-2xl font-semibold mb-3">DocAppoint</h2>
+        <div className="flex flex-col gap-12 mb-10 md:flex-row md:mb-6">
+          <div className="pr-10 mr-10 basis-3/6">
+            <h2 className="mb-3 text-2xl font-semibold md:text-3xl">DocAppoint</h2>
             
-            <p className="md:text-lg mb-5 font-light">
+            <p className="mb-5 font-light md:text-lg">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
               error cupiditate ipsum commodi, eum natus. Lorem ipsum dolor sit
               amet consectetur adipisicing elit. Nam, maxime.
             </p>
             
-            <div className="text-2xl mb-6">
+            <div className="mb-6 text-2xl">
               <Link to="https://www.wikipedia.org/" className="mr-4">
                 <i className="ri-global-line bg-white text-primary p-2 rounded-[50%]"></i>
               </Link>
@@ -32,7 +32,7 @@ function Footer() {
           </div>
 
           <div className="basis-2/6">
-            <h2 className="font-semibold text-xl mb-3">Get in touch with us</h2>
+            <h2 className="mb-3 text-xl font-semibold">Get in touch with us</h2>
             
             <div className="mb-3">
               <p className="font-medium">24/7 Support:</p>
@@ -46,8 +46,8 @@ function Footer() {
             </div>
           </div>
 
-          <div className="basis-1/6 flex flex-col gap-2 ">
-            <h2 className="font-semibold text-xl mb-2">Quick Links</h2>
+          <div className="flex flex-col gap-2 basis-1/6 ">
+            <h2 className="mb-2 text-xl font-semibold">Quick Links</h2>
             <Link to="/">Home</Link>
             <Link to="/doctor">Doctor</Link>
             <Link to="/survey">Survey</Link>
@@ -59,7 +59,7 @@ function Footer() {
 
         <hr className="border"/>
 
-        <p className="text-center text-lg mt-8">DocAppoint © - All Rights Reserved</p>
+        <p className="mt-8 text-lg text-center">DocAppoint © - All Rights Reserved</p>
       </footer>
     </>
   );
