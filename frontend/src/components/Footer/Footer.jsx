@@ -48,12 +48,12 @@ function Footer() {
 
           <div className="basis-1/6 flex flex-col gap-2 ">
             <h2 className="font-semibold text-xl mb-2">Quick Links</h2>
-            <Link>Home</Link>
-            <Link>Doctor</Link>
-            <Link>Survey</Link>
-            <Link>About Us</Link>
-            <Link>Contact Us</Link>
-            <Link>FAQ's</Link>
+            <Link to="/">Home</Link>
+            <Link to="/doctor">Doctor</Link>
+            <Link to="/survey">Survey</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/contact">Contact Us</Link>
+            <Link to="/faq">FAQ's</Link>
           </div>
         </div>
 

@@ -1,8 +1,11 @@
 import React from "react";
 import assets from "../../assets/assets";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function About() {
+
+  const navigate = useNavigate()
+
   return (
     <div className="px-12 xl:px-60 py-6 mb-24 flex flex-col md:flex-row gap-6">
       <div className="basis-1/2">
@@ -34,11 +37,9 @@ function About() {
           </div>
         </div>
 
-        <Link to="/about">
-          <button className="bg-primary text-white px-3 py-2 md:px-4 md:py-3 md:font-medium md:text-lg hover:scale-105 transition-all duration-500 rounded-lg">
+          <button onClick={() => navigate("/about")} className="bg-primary text-white px-3 py-2 md:px-4 md:py-3 md:font-medium md:text-lg hover:scale-105 transition-all duration-500 rounded-lg">
             View more
           </button>
-        </Link>
       </div>
 
       <div className="basis-1/2">
