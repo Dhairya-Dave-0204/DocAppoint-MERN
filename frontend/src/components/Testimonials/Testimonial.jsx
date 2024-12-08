@@ -56,7 +56,7 @@ function Testimonial() {
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
               <i className="ri-star-half-fill"></i>
-              <i className="ri-star-half-fill"></i>
+              <i className="ri-star-line"></i>
               </div>
             </div>
             <p className="p-4 text-sm xl:text-lg">
@@ -164,7 +164,7 @@ function Testimonial() {
               <i className="ri-star-fill"></i>
               <i className="ri-star-fill"></i>
               <i className="ri-star-half-fill"></i>
-              <i className="ri-star-half-fill"></i>
+              <i className="ri-star-line"></i>
               </div>
             </div>
             <p className="p-4 text-sm xl:text-lg">

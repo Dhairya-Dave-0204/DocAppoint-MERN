@@ -8,6 +8,7 @@ import Testimonial from "./Testimonials/Testimonial";
 import DocCourousal from "./DocCorousal/DocCourousal";
 import AboutShort from "./About/AboutShort";
 import AboutValues from "./AboutValues/AboutValues";
+import FaqAccordian from "./FaqAccordian/FaqAccordian";
 
 export {
     Navbar,
@@ -20,4 +21,5 @@ export {
     DocCourousal,
     AboutShort,
     AboutValues,
+    FaqAccordian,
 }
