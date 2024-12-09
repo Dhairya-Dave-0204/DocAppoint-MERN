@@ -17,6 +17,8 @@ export default {
         tertiary: "#90e0ef",
         ternary: "#caf0f8",
         ternaryDark: "#03045e",
+        rgba: "rgba(0, 172, 177, 0.3)",
+        hoverrgba: "rgba(0, 172, 177, 0.6)"
       },
 
       textColor: {

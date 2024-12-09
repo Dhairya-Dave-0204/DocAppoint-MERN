@@ -9,6 +9,7 @@ import DocCourousal from "./DocCorousal/DocCourousal";
 import AboutShort from "./About/AboutShort";
 import AboutValues from "./AboutValues/AboutValues";
 import FaqAccordian from "./FaqAccordian/FaqAccordian";
+import DocCategory from "./DocCategory/DocCategory";
 
 export {
     Navbar,
@@ -22,4 +23,5 @@ export {
     AboutShort,
     AboutValues,
     FaqAccordian,
+    DocCategory,
 }

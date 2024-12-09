@@ -1,15 +1,17 @@
 import Home from "./Home/Home";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
-import Doctor from "./Doctor/Doctor";
 import FAQ from "./FAQ/FAQ";
 import Survey from "./Survey/Survey";
+import DocGeneral from "./DocGeneral/DocGeneral";
+import DocProfile1 from "./DocProfile1/DocProfile1";
 
 export {
     Home,
     About,
     Contact,
-    Doctor,
     FAQ,
     Survey,
+    DocGeneral,
+    DocProfile1,
 }
