@@ -3,11 +3,11 @@ import doctors from "./data";
 
 // WILL BE DONE USING MAP METHOD DYNAMICALLY FROM DATABASE BUT IS STATIC NOW
 
-function DocCards() {
+function DocCards({heading}) {
   return (
     <>
       <h2 className="mb-16 text-5xl font-medium text-center underline underline-offset-8 decoration-primary">
-        Top searched doctors
+        {heading}
       </h2>
 
       <div className="grid grid-cols-1 gap-6 px-12 py-6 mb-20 md:grid-cols-2 xl:grid-cols-4 xl:px-40">

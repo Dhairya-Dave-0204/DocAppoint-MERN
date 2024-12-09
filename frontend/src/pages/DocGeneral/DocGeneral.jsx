@@ -20,7 +20,7 @@ function DocGeneral() {
 
       <DocCategory />
 
-      <DocCards />
+      <DocCards heading={"Top searched doctors"}/>
 
       <ListPracticeBanner padding={40}/>
     </>

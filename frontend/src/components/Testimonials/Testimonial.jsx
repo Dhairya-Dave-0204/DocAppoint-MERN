@@ -122,7 +122,7 @@ function Testimonial() {
           </div>
         </div>
         
-        <div className="xl:col-span-3 xl:row-span-2 rounded-2xl p-[1.3px] bg-slate-200 hover:scale-105 transition-all duration-500 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300">
+        <div className="xl:col-span-3 xl:row-span-2 rounded-2xl p-[1.3px] bg-slate-200 max-md:hidden hover:scale-105 transition-all duration-500 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300">
           <div className="w-full h-full bg-white rounded-2xl">
             <div className="flex items-center gap-3 p-3 md:justify-around sm:p-6 xl:gap-8">
               <img
@@ -149,7 +149,7 @@ function Testimonial() {
           </div>
         </div>
 
-        <div className="xl:col-span-4 xl:row-span-1 rounded-2xl p-[1.3px] bg-slate-200 hover:scale-105 transition-all duration-500 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300">
+        <div className="xl:col-span-4 xl:row-span-1 rounded-2xl p-[1.3px] bg-slate-200 hover:scale-105 transition-all max-md:hidden duration-500 hover:bg-gradient-to-br hover:from-blue-300 hover:via-purple-300 hover:to-sky-300">
           <div className="w-full h-full bg-white rounded-2xl">
             <div className="flex items-center gap-3 p-3 md:justify-around sm:p-6 xl:gap-8">
               <img
