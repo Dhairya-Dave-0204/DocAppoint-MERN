@@ -10,6 +10,7 @@ import AboutShort from "./About/AboutShort";
 import AboutValues from "./AboutValues/AboutValues";
 import FaqAccordian from "./FaqAccordian/FaqAccordian";
 import DocCategory from "./DocCategory/DocCategory";
+import DocCards from "./DocCards/DocCards";
 
 export {
     Navbar,
@@ -24,4 +25,5 @@ export {
     AboutValues,
     FaqAccordian,
     DocCategory,
+    DocCards,
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { DocCategory } from "../../components/component_index";
+import { DocCategory, DocCards, ListPracticeBanner } from "../../components/component_index";
 
 function DocGeneral() {
   return (
@@ -18,6 +18,10 @@ function DocGeneral() {
       </div>
 
       <DocCategory />
+
+      <DocCards />
+
+      <ListPracticeBanner padding={40}/>
     </>
   );
 }

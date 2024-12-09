@@ -39,14 +39,14 @@ function DocCategory() {
           <h3 className="text-2xl font-medium">Psychiatrist</h3>
         </div>
         
-        <div className="flex flex-col items-center justify-center p-8 min-w-[230px] cursor-pointer bg-rgba hover:bg-hoverrgba transition-all duration-500 shadow-md">
+        <div className="flex flex-col items-center justify-center p-8 min-w-[230px] cursor-pointer bg-rgba hover:bg-hoverrgba transition-all duration-500 shadow-md max-[425px]:hidden">
           <div className="bg-[#fefffe] h-32 w-32 mb-5 rounded-[50%] flex items-center justify-center">
             <i className="text-5xl fa-solid fa-glasses text-secondary"></i>
           </div>
           <h3 className="text-2xl font-medium">Ophthalmologist</h3>
         </div>
         
-        <div className="flex flex-col items-center justify-center p-8 min-w-[230px] cursor-pointer bg-rgba hover:bg-hoverrgba transition-all duration-500 shadow-md">
+        <div className="flex flex-col items-center justify-center p-8 min-w-[230px] cursor-pointer bg-rgba hover:bg-hoverrgba transition-all duration-500 shadow-md max-[425px]:hidden">
           <div className="bg-[#fefffe] h-32 w-32 mb-5 rounded-[50%] flex items-center justify-center">
             <i className="text-5xl fa-solid fa-heart-pulse text-secondary"></i>
           </div>

@@ -9,7 +9,7 @@ function Home() {
       <DocCourousal />
       <Testimonial />
       <AboutShort />
-      <ListPracticeBanner />
+      <ListPracticeBanner padding={60}/>
       <SurveyBanner />
     </>
   )
