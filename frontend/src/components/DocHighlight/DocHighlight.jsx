@@ -3,7 +3,7 @@ import assets from "../../assets/assets";
 
 function DocHighlight() {
   return (
-    <div className="flex flex-col items-center justify-center gap-5 px-12 py-6 mt-10 mb-20 xl:flex-row xl:px-60">
+    <div className="flex flex-col items-center justify-center gap-5 px-12 py-6 mt-10 sm:mb-20 xl:flex-row xl:px-60">
       <div className="flex flex-col gap-4 basis-2/5">
         <div className="flex items-center gap-5">
           <div className="rounded-[50%] h-24 sm:h-32 w-32 p-1 border-2 border-primary">
