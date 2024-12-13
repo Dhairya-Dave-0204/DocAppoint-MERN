@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AppContext } from "../../context/AppCcontext";
 
 function Navbar() {
   const [menuOpened, setMenuOpened] = useState(false);
 
-  const user = null;
+  const { user } = useContext(AppContext)
 
   return (
     <nav className="flex items-center justify-between px-8 py-6 text-xl md:px-32">
