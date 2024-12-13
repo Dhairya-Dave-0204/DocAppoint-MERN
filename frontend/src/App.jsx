@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css'
-import { Navbar, Footer } from "./components/component_index"
+import { Navbar, Footer, Chatbot } from "./components/component_index"
 import { About, Contact, FAQ, Home, Survey, DocGeneral, DocProfile1, DocCategory } from "./pages/page_index"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -11,6 +11,7 @@ function App() {
     <>
       <div className='min-h-screen font-Parkinsans'>
         <ToastContainer position='bottom-right'/>
+        <Chatbot />
         <Navbar /> 
         <Routes>
           <Route path='/' element={<Home />} />

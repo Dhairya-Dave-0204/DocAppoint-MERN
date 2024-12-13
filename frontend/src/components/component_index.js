@@ -14,6 +14,7 @@ import DocCards from "./DocCards/DocCards";
 import DocHighlight from "./DocHighlight/DocHighlight";
 import AppointForm from "./AppointForm/AppointForm";
 import DocDetails from "./DocDetails/DocDetails";
+import Chatbot from "./Chatbot/Chatbot";
 
 export {
     Navbar,
@@ -32,4 +33,5 @@ export {
     DocHighlight,
     AppointForm,
     DocDetails,
+    Chatbot,
 }
