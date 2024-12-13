@@ -1,9 +1,10 @@
 import React from "react";
 import assets from "../../assets/assets";
+import { Link } from "react-router-dom"
 
 function DocHighlight() {
   return (
-    <div className="flex flex-col items-center justify-center gap-5 px-12 py-6 mt-10 sm:mb-20 xl:flex-row xl:px-60">
+    <div id="highlight" className="flex flex-col items-center justify-center gap-5 px-12 py-6 mt-10 sm:mb-20 xl:flex-row xl:px-60">
       <div className="flex flex-col gap-4 basis-2/5">
         <div className="flex items-center gap-5">
           <div className="rounded-[50%] h-24 sm:h-32 w-32 p-1 border-2 border-primary">
@@ -42,7 +43,7 @@ function DocHighlight() {
               officia optio maxime."
             </p>
 
-            <p className="text-sm underline cursor-pointer">See all reviews</p>
+            <a href="#review-wrapper"> <p className="text-sm underline cursor-pointer">See all reviews</p> </a>
           </div>
         </div>
       </div>
@@ -52,9 +53,9 @@ function DocHighlight() {
       <div className="flex flex-col items-center gap-5 max-xl:hidden">
         <div className="flex gap-10 text-lg font-medium">
           <h3 className="underline cursor-pointer underline-offset-2">Highlights</h3>
-          <h3 className="cursor-pointer ">About</h3>
-          <h3 className="cursor-pointer ">Education</h3>
-          <h3 className="cursor-pointer ">Reviews</h3>
+          <a href="#about-wrapper"> <h3 className="cursor-pointer ">About</h3> </a>
+          <a href="#edu-wrapper"> <h3 className="cursor-pointer ">Education</h3> </a> 
+          <a href="#review-wrapper"> <h3 className="cursor-pointer ">Reviews</h3> </a>
         </div>
 
         <div className="grid grid-cols-2 gap-8">

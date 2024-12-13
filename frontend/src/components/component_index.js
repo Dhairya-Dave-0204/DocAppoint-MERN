@@ -13,6 +13,7 @@ import DocCategory from "./DocCategory/DocCategory";
 import DocCards from "./DocCards/DocCards";
 import DocHighlight from "./DocHighlight/DocHighlight";
 import AppointForm from "./AppointForm/AppointForm";
+import DocDetails from "./DocDetails/DocDetails";
 
 export {
     Navbar,
@@ -30,4 +31,5 @@ export {
     DocCards,
     DocHighlight,
     AppointForm,
+    DocDetails,
 }
