@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import conf from "../../conf/conf";
 
 const Chatbot = () => {
   const [showChatbot, setShowChatbot] = useState(false);
@@ -11,7 +12,7 @@ const Chatbot = () => {
   const [userMessage, setUserMessage] = useState("");
   const chatboxRef = useRef(null);
 
-  const API_KEY = "AIzaSyClazX_egBmUNnUpa3dESoQ24dYv6zHxrM";
+  const API_KEY = conf.geminiAPI;
 
   const scrollToBottom = () => {
     if (chatboxRef.current) {
