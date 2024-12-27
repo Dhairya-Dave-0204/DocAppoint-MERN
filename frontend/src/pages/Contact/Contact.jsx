@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -16,6 +17,14 @@ function Contact() {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
   };
+
+  const toastDisplay = (message, status) => {
+    if (status) {
+      toast.success(message);
+    } else {
+      toast.error(message);
+    }
+  }
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -38,6 +47,7 @@ function Contact() {
     const result = await response.json();
 
     if (result.success) {
+      toastDisplay("Form Submitted Successfully", true);
       setSuccess(true);
       setFormData({
         firstName: "",
@@ -45,8 +55,9 @@ function Contact() {
         email: "",
         phone: "",
         message: "",
-      }); // Reset form fields
+      });
     } else {
+      toastDisplay("Error in submitting the form", false);
       setError(true);
     }
   };

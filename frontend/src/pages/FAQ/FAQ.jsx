@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaqAccordian } from "../../components/component_index";
+import { toast } from "react-toastify";
 
 function FAQ() {
   const [result, setResult] = useState("");
@@ -19,9 +20,11 @@ function FAQ() {
     const data = await response.json();
 
     if (data.success) {
+      toast.success("Form Submitted Successfully");
       setResult("Form Submitted Successfully");
       event.target.reset();
     } else {
+      toast.error("Error submitting form");
       console.log("Error", data);
       setResult(data.message);
     }
